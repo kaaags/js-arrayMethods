@@ -65,8 +65,8 @@ array.splice(index, how many items to be removed)*/
 /*6. As head of McDonald's New Product Division, your job is to test and approve all new menu items. In the testMenu array below, all the items are approved except for "McLinguine" and "McChar-Siu Bau". Remove these items from the list and console.log the updated testMenu.*/
 
 var testMenu = ["McPizza Burger", "McFly Burger", "McLinguine", "McChar-Siu Bau", "McChop-Chae", "McPancit"];
-
-
+testMenu.splice(2,2);
+console.log(testMenu);
 
 /*=============================================================*/
 
@@ -79,7 +79,8 @@ var testMenu = ["McPizza Burger", "McFly Burger", "McLinguine", "McChar-Siu Bau"
 var westSide = ["Dre", "2Pac", "Snoop"];
 var eastSide = ["Biggie", "Diddy", "Craig Mack"];
 
-
+var oneLove = westSide.concat(eastSide);
+console.log(oneLove);
 
 /*The array.join() joins all the elements of an array into a string.*/
 
@@ -87,7 +88,8 @@ var eastSide = ["Biggie", "Diddy", "Craig Mack"];
 
 var shoe = ["just", "do", "it"];
 
-
+var shoeString = shoe.join();
+console.log(shoeString);
 
 /*The array.slice() extracts a section of an array and returns a new array.
 array.slice(index start, index end)*/
@@ -97,7 +99,5 @@ array.slice(index start, index end)*/
 
 var fbFriends = ["Khalid", "Yeezy", "Kimmy K", "Lamar Odom", "Lebron", "Warren Buffet"];
 
-
-
-
-
+var unFriend = fbFriends.slice(1, 4);
+console.log(unFriend);
