@@ -39,7 +39,8 @@ console.log(yoda);
 /*4. People been lining up for hours to get the newest iphone release. Help manage the unruly crowd of privileged customers by serving them one at a time and assiging it to a variable named `nowServing`. Console.log this new variable as well as the waitList.*/
 
 var waitList = ["Chance the Rapper", "Khalid", "Tay-Tay", "Barry Manilow", "Piko Taro"];
-var nowServing = waitList.shift();
+var nowServing = waitList;
+console.log(nowServing = waitList.shift());
 console.log(nowServing = waitList.shift());
 console.log(nowServing = waitList.shift());
 console.log(nowServing = waitList.shift());
@@ -49,7 +50,9 @@ console.log(nowServing = waitList.shift());
 
 /*5. Apparently, you didn't do a good job with crowd control in the previous exercise. Kanye just cut in front of everyone!. Add Kanye to the waitList array above. Console.log waitList*/
 
-nowServing.unshift("Kanye");
+var waitList = ["Chance the Rapper", "Khalid", "Tay-Tay", "Barry Manilow", "Piko Taro"];
+waitList.unshift("Kanye");
+console.log(nowServing = waitList.shift());
 console.log(nowServing = waitList.shift());
 console.log(nowServing = waitList.shift());
 console.log(nowServing = waitList.shift());
